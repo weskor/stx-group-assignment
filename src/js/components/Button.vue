@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <button
-      class="button focus:outline-none focus:shadow-outline hover:bg-blue-700" type="button"
-      @click="onClick">
-        <slot/>
-      </button>
-  </div>
+  <button
+    class="button focus:outline-none focus:shadow-outline hover:bg-blue-700" type="button"
+    @click="onClick">
+      <slot/>
+  </button>
 </template>
 
 <script lang="ts">
