@@ -9,11 +9,6 @@ const routes: Array<RouteConfig> = [
     path: '/',
     name: 'Client Orders',
     component: Wrapper
-  },
-  {
-    path: '/documentation',
-    name: 'Documentation',
-    component: () => import(/* webpackChunkName: "about" */ '@/containers/Documentation.vue')
   }
 ]
 
