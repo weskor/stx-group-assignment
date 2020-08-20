@@ -1,6 +1,7 @@
 # STX
 First of all, thanks for the assignment. I enjoyed working with vue. 
-In this readme you can find some information explaining the choices, how to run the project and the live example. 
+In this readme you can find some information explaining the choices, how to run the project and the live example.
+The order saving API mock randomly fails. So if the first time the calls fails, try it again.
 
 ## Live
 There is a working example running on: [Working example](https://musing-bhaskara-2fad7e.netlify.app). It's running on netlify. There is also a link in the about in this repo.
@@ -25,6 +26,8 @@ Did not do much with the linter. The settings are not how I prefer it. But this 
 
 Iv put in tailwindcss. Just to show how it would work. Did not configure anything for it except the postcss.config.js.
 
+For testing, I have added two unit tests. One for the button(non class) and one for the inputDate(class). This is just to show that I'm capable of.
+
 
 ## Project setup
 ```
@@ -39,4 +42,9 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+```
+
+### Unit tests
+```
+npm run test:unit
 ```
