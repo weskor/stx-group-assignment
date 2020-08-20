@@ -98,7 +98,7 @@ export default class Wrapper extends Vue {
     }
 
     if (difference > 0 || difference < 0) {
-      this.errorMessages = [`Sellers total percetage should be total 100, currently is ${sellersTotal}`]
+      this.errorMessages = [`Sellers total percentage should be total 100, currently is ${sellersTotal}`]
       return
     }
 
